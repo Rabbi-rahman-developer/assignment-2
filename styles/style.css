@@ -207,7 +207,88 @@ header{
     
 }  
   
+
+ /* main style start here  */
+
+ main{
+
+    margin-top: 50px;
+}
+
+ /* habit style start  */
+ #habit{
+       
+    margin: 50px 170px ; 
+    padding: 10px; 
+       
+ }
+
+   
+ .habit-title{
+    font-size: 3rem ; 
+    color: #FFFFFF; 
+    font-weight: 900;
+    text-transform: capitalize;
+    text-align: center;
+    margin-bottom: 20px;
+}
+ 
+.habit-des{
+    color: #ffffff97 ; 
+    text-transform: capitalize;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 5px ;
   
+  
+  }
+
+  .heading-four{
+    font-size: 1.5rem ; 
+    color: #FFFFFF; 
+    font-weight: 400px ; 
+    text-transform: capitalize;
+    margin-top: 20px;
+    margin-left: 5px;
+    
+  }
+  .center{
+
+    text-align: center;
+}
+
+
+
+.pera-styles{
+    color: #ffffff97 ; 
+    text-transform: capitalize;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 5px ;
+  
+  
+  }
+
+ 
+.habit-image{
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    margin-top: 80px;
+    gap: 30px;
+    
+  }
+
+  
+.img-rounded{
+    border-radius: 100%;
+    border: 1px solid white; 
+    margin-left: 50px;
+  
+  
+  
+  }
+
+  /* habit style end  */
 
 
 
@@ -262,6 +343,34 @@ header{
             top: 50px;
              left: 350px ;  
            }
+
+           /* banner section end  */
+
+
+           /* habit style start  */
+  
+ .habit-image{
+
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: center;
+    align-items: center;
+
+ }
+
+
+ .habit-content{
+   text-align: center;
+   margin-left: 30px;
+ }
+
+ .img-rounded{
+
+    margin-right: 30px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+     
+ }
+ /* habit style end  */
         
 
     
