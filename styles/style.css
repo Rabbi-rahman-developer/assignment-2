@@ -112,6 +112,103 @@ header{
 
   /* navbar style end here  */
 
+  /* banner style start here  */
+  #banner{
+    display: grid; 
+    grid-template-columns: repeat(2, 1fr);
+    padding: 50px 170px ; 
+  
+ }
+
+ 
+ .banner-content{
+    margin-top: 30px;
+  }
+  
+ .banner-title{
+  font-size: 6rem ; 
+  color: #FFFFFF; 
+  font-weight: 900;
+}
+  
+
+
+.banner-des{
+    margin-top: 10px;
+    margin-bottom: 10px;
+  
+  }
+
+  
+.btn-bg{
+    background-color: rgb(0, 0, 0);
+    border: 1px solid white; 
+  }
+  
+  .banner-image{
+    position: relative;
+  }
+   
+  
+.banner-img{
+
+    width: 75%;
+   margin-left: 160px;
+   
+   
+ }
+
+ 
+.banner-badge-one{
+    background-color: rgba(255, 255, 255, 0.397) ;
+    width: 170px; 
+    height: 100px ;
+    border-radius: 15px;
+    position:absolute; 
+    top: 520px; 
+    right: 385px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    
+  }
+  
+  
+.banner-badge-two{
+    background-color: rgba(255, 255, 255, 0.397) ;
+    width: 170px; 
+    height: 100px ;
+    border-radius: 15px;
+    position:absolute; 
+    top: 160px; 
+    left: 440px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    
+  }
+  
+ .bg{
+    background-color: rgba(255, 255, 255, 0.323) ;
+  
+   }
+
+   
+.circle{
+    background-color: #E6533C;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    margin-top: 15px;
+    margin-right: 8px;
+    margin-left: 5px;
+    
+}  
+  
+  
+
 
 
   /* responsive style start here  */
@@ -131,5 +228,41 @@ header{
     .nav-links{
         border: none;
      }
+
+     /* navbar end here  */
+
+
+     /* banner start here  */
+
+     #banner{
+        grid-template-columns: repeat(1,1fr);
+        padding: 0;
+      }
+      
+  
+     .banner-content{
+        padding: 20px;
+     }
+  
+     
+       .banner-title{
+        font-size: 4rem;
+        }
+          .banner-img{
+
+            width: 60%;
+          }
+
+          .banner-badge-one{
+            left: 50px;
+            top: 230px;
+          }
+
+          .banner-badge-two{
+            top: 50px;
+             left: 350px ;  
+           }
+        
+
     
    }
