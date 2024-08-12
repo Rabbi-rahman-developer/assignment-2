@@ -9,7 +9,7 @@
 /* mia font  */ 
 .miama-fonts{
     font-family: 'Miama',sans-serif; 
-    font-weight: 600;
+    font-weight: 200;
     font-size: 6.25rem; 
     
 }
@@ -344,11 +344,129 @@ header{
     margin-top: 50px;
     
  }
+/* run extra style end here  */
+
+ /* bmi style start here  */
+ .bmi{
+    text-align: center;
+   margin: 70px 0;
+  }
+  
+  .bmi-title{
+  color: white;
+  }
+  
+  .bmi-des{
+    font-size: 0.87rem;
+  color: rgba(255, 255, 255, 0.5);
+  }
+  
+  .bmi-hero{
+    background: rgb(34, 34, 34);  
+     width: 100%;
+    margin: 0 auto;
+  }
+  
+  .bmi-chat{
+   width: 80%;
+   margin: 0 auto;
+  align-items: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 20px;
+  gap: 15rem ;
+  }
+  
+  .cal-chart{
+   color: white;
+   margin-bottom: 70px;
+  }
+  
+  .bmi-text{
+    margin-bottom: 1.8rem;
+    font-size:1.5rem; 
+  }
+  
+  table{
+    width:300px;
+    height: 200px;
+    border-collapse: collapse;  
+  }
+  
+  td,th{
+    border: 1px solid rgb(92, 91, 91);
+    padding: 10px;
+  }
+  
+  td{
+    color: rgba(255, 255, 255, 0.5);
+  }
+  
+  tr{
+    text-align: left;
+  }
+  
+  .bmi-title{
+    color: white;
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+  }
+  
+  .bmi-desc{
+    color: rgba(255, 255, 255, 0.5);
+    font-size:0.9rem;
+    line-height: 25px;
+    margin-bottom: 20px;
+  }
+  
+  input, select{
+  width:250x;
+  height: 35px;
+  margin: 0.5rem 0.5rem;
+  border: none;
+  border-radius: 5px;
+  background-color:rgb(59, 58, 58);
+  padding-left: 15px;
+  }
+  
+  select{
+    border-right: 15px solid transparent;
+  }
+  
+  
+  .input input::placeholder,select{
+    color: rgba(255, 255, 255, 0.6);
+  }
+  
+  .input{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .activity-factor{
+    grid-template-columns: 1fr;
+    width: 192%;
+  }
+  
+
+
+  .button-3 {
+    padding: 12px 30px 12px 28px;
+    border-radius: 42px;
+    background: rgb(230, 83, 60);
+    border: none;
+    font-size: 0.95rem;
+    color: white;
+  }
 
 
   /* responsive style start here  */
 
    @media screen and (max-width: 576px){
+
+    body{
+        width: 100%; 
+    }
 /* navbar style start  */
     .navbar{
         padding: 50px 20px 50px 20px ; 
@@ -448,6 +566,23 @@ header{
         margin: 0;
         width: 90%;
      }
+
+     /* run extra  style end  */
+
+     /* bmi style start  */
+
+     .bmi-chat{
+        flex-direction: column;
+        grid-template-columns: 1fr;
+        gap: 2rem ; 
+     }
+
+     .bmi-des{
+        width: 80%;
+        margin: 0 auto;
+     }
+
+     
         
 
     
