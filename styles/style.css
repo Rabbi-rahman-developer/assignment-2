@@ -290,6 +290,60 @@ header{
 
   /* habit style end  */
 
+  
+ /* run extra style start */
+ .run-extra{
+
+    margin: 50px 170px;  
+    background-color: rgba(34, 34, 34, 0.474) ;
+    display: flex;
+    border-radius: 20px;
+     
+
+  }
+
+
+  .run-extra-content{
+    padding-top: 50px;
+    padding-left: 30px;
+}
+
+
+.run-extra-content{
+    padding-top: 50px;
+    padding-left: 30px;
+}
+
+.run-extra-title{
+
+    color: #fff ; 
+    font-size: 3rem ; 
+    margin-top: 10px;
+    margin-bottom: 10px;
+     background-color: rgba(34, 34, 34, 0) ; 
+
+  
+ }
+
+ .run-extra-des{
+
+   color: #ffffff97 ; 
+   margin-top: 10px;
+   margin-bottom: 20px;
+   background-color: rgba(34, 34, 34, 0) ; 
+
+
+ }
+
+ 
+ .run-img{
+    width: 70%;
+    height: 70%;
+    border-radius: 20px;
+    margin-left: 150px;
+    margin-top: 50px;
+    
+ }
 
 
   /* responsive style start here  */
@@ -371,6 +425,29 @@ header{
      
  }
  /* habit style end  */
+
+ 
+      /* run extra style  */
+
+      .run-extra{
+
+        flex-direction: column;
+        margin: 20px;
+        background-color: rgba(34, 34, 34, 0.474) ; 
+
+    }
+
+    .run-extra div {
+
+        margin: 40px;
+        
+         
+     }
+
+     .run-img{
+        margin: 0;
+        width: 90%;
+     }
         
 
     
