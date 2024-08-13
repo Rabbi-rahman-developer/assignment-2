@@ -458,15 +458,68 @@ header{
     font-size: 0.95rem;
     color: white;
   }
+/* meat our team start  */
+
+.team-content{
+  margin-top: 100px;
+  text-align: center;
+}
+
+.team-title{
+   color: #fff; 
+   font-size: 3rem;
+   margin-bottom: 20px;
+}
+ 
+.team-des{
+ color: #ffffff77 ; 
+
+}
+
+  /* row section start  */
+
+  .meet{
+       display: grid;
+       grid-template-columns: repeat(3,1fr);
+        margin:50px 170px ; 
+        border-radius: 20px;
+       background: rgb(34, 34, 34);
+        padding: 20px 20px ;  
+    
+  }
+
+  .team-img{
+    position: relative;
+    
+  }
+
+
+  .img-team{
+    width: 70%;
+    height: 80%;
+    border-radius: 20px;
+}
+
+.trainer-title{
+  position: absolute;
+  left: 10%; 
+  top: 50%; 
+  color: #fff; 
+}
+
+.trainer{
+  color: rgb(153, 143, 143); 
+  font-size: 1rem; 
+}
+
+
+
 
 
   /* responsive style start here  */
 
    @media screen and (max-width: 576px){
 
-    body{
-        width: 100%; 
-    }
 /* navbar style start  */
     .navbar{
         padding: 50px 20px 50px 20px ; 
@@ -581,9 +634,38 @@ header{
         width: 80%;
         margin: 0 auto;
      }
+/* bmi style end  */
 
+ /* meet style start  */
+
+  
+  .meet{
+
+   grid-template-columns: repeat(1, 1fr);
+   margin: 0;
+   margin-top: 20px;
+   margin-left: 20px;
+   margin-right: 20px;
+   margin-bottom: 50px;
      
         
+}
+
+  .img-team{
+    width: 80%;
+    
+  }
+
+  .hide{
+     display: none;
+  }
+
+
+
+
+
+
+
 
     
    }
