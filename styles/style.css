@@ -160,7 +160,7 @@ header{
 
  
 .banner-badge-one{
-    background-color: rgba(255, 255, 255, 0.397) ;
+    background-color: rgba(255, 255, 255, 0.185) ;
     width: 170px; 
     height: 100px ;
     border-radius: 15px;
@@ -176,7 +176,7 @@ header{
   
   
 .banner-badge-two{
-    background-color: rgba(255, 255, 255, 0.397) ;
+    background-color: rgba(255, 255, 255, 0.215) ;
     width: 170px; 
     height: 100px ;
     border-radius: 15px;
