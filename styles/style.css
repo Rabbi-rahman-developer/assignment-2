@@ -460,6 +460,66 @@ header{
   }
 
 
+   /* uniq section start here  */
+
+
+    .uniq-section{
+
+        margin: 50px 170px; 
+        background-color: rgba(34, 34, 34, 0.474) ;
+        border-radius: 20px;
+
+
+    }
+
+     .uniq-title{
+         color: #fff;
+         font-size: 3rem;
+         text-align: center;
+         margin-top: 50px;
+         margin-bottom: 50px;
+         padding-top: 50px;
+     }
+
+
+    .uniq{
+        display: flex;
+        padding: 50px;
+        margin-top: 50px;
+
+    }
+
+    .uniq-content-title{
+      color: #fff;
+      font-size: 2rem;
+      margin-bottom: 50px;
+    }
+
+    .uniq-content-des{
+      color: rgba(255, 255, 255, 0.5);
+      margin-bottom: 50px;
+
+
+    }
+
+
+    .uniq-img{
+
+       width: 90%;
+       border-radius: 10px;
+       margin-left: 50px;
+    }
+
+    
+
+
+
+
+
+
+
+
+
   /* meet section start  */
 
   .meet-conatainer{
@@ -698,6 +758,31 @@ font-size: 16px;
         margin: 0 auto;
      }
 /* bmi style end  */
+
+
+  /* uniq section start here  */
+
+   .uniq-section{
+     margin: 0;
+     margin-left: 20px;
+     margin-right: 20px;
+
+   }
+
+   .uniq{
+    flex-direction: column;
+   }
+
+   .uniq-img{
+  
+     width: 100%;
+     margin: 0;
+     margin-top: 50px;
+     
+   }
+
+
+
 
  /* meet style start  */
 
