@@ -1,889 +1,910 @@
-/* google font inter */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
-.inter-google-font{
-  font-family: "Inter", sans-serif;
-  font-weight:600; 
-  font-style: normal;
-}
+  /* google font inter */
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+  .inter-google-font{
+    font-family: "Inter", sans-serif;
+    font-weight:600; 
+    font-style: normal;
+  }
 
-/* mia font  */ 
-.miama-fonts{
-    font-family: 'Miama',sans-serif; 
-    font-weight: 200;
-    font-size: 6.25rem; 
+  /* mia font  */ 
+  .miama-fonts{
+      font-family: 'Miama',sans-serif; 
+      font-weight: 200;
+      font-size: 6.25rem; 
+      
+  }
+
+
+  *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+
+  }
     
-}
+  body{
+      background-color:rgb(0, 0, 0) ;  
 
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-
-}
-  
-body{
-    background-color:rgb(0, 0, 0) ;  
-
-}
-
-/* navbar style start */
-header{
-    background: linear-gradient(180.00deg, rgb(26, 24, 24),rgba(119, 119, 119, 0.2) 100%);
-}
-
-
-.color-one{
-    color:  #FFFFFF; 
   }
 
-  .color-two{
-     color: #efede8e2; 
+  /* navbar style start */
+  header{
+      background: linear-gradient(180.00deg, rgb(26, 24, 24),rgba(119, 119, 119, 0.2) 100%);
   }
 
-   
-.btn-color{
-    background-color: #E6533C;
-  }
-  
-  .btn-style{
-    padding: 7px 15px 7px 15px ; 
-    border-radius: 50px;
-    width: 240px;
-    font-size: 20px;
-    margin-top: 10px;
-  }
-  
-  
-.btn-primary{
-    padding: 18px; 
-    border-radius: 50px;
-    width: 220px;
-    font-size: 1.2rem;
-    margin-top: 10px;
-    color: #ffffff; 
-    margin-right: 10px;
-    border: none; 
-}
 
+  .color-one{
+      color:  #FFFFFF; 
+    }
 
-.display-flex{
-    display: flex;
- }
+    .color-two{
+      color: #efede8e2; 
+    }
 
- .navbar{
-
-  justify-content: space-between;
-   padding: 50px 170px 30px 170px ;  
- }
-
- 
- .nav-item{
-    list-style: none;
-    margin-right: 40px;
-}
-.nav-links{
-  border: 1px solid rgba(245, 245, 245, 0.197);
-  padding: 3px;  
-
-}
- 
-.nav-link{
-    text-decoration: none;
-    font-size: 1.3rem; 
-
- }
-
- 
- .hamburger{
-    font-size: 20px;
-   cursor: pointer;
-   color: #FFFFFF; 
-    display: none;
-   
+    
+  .btn-color{
+      background-color: #E6533C;
+    }
+    
+    .btn-style{
+      padding: 7px 15px 7px 15px ; 
+      border-radius: 50px;
+      width: 240px;
+      font-size: 20px;
+      margin-top: 10px;
+    }
+    
+    
+  .btn-primary{
+      padding: 18px; 
+      border-radius: 50px;
+      width: 220px;
+      font-size: 1.2rem;
+      margin-top: 10px;
+      color: #ffffff; 
+      margin-right: 10px;
+      border: none; 
   }
 
-   
-.fitness-style{
-    color: #E6533C; 
-    font-size: 2.2rem; 
-    font-weight: bolder;
+
+  .display-flex{
+      display: flex;
   }
 
-  /* navbar style end here  */
+  .navbar{
 
-  /* banner style start here  */
-  #banner{
-    display: grid; 
-    grid-template-columns: repeat(2, 1fr);
-    padding: 50px 170px 0px 170px; 
-  
- }
-
- 
- .banner-content{
-    margin-top: 30px;
-  }
-  
- .banner-title{
-  font-size: 5.5rem ; 
-  color: #FFFFFF; 
-  font-weight: 900;
-}
-  
-
-
-.banner-des{
-    margin-top: 20px;
-    margin-bottom: 30px;
-  
+    justify-content: space-between;
+    padding: 50px 170px 30px 170px ;  
   }
 
   
-.btn-bg{
-    background-color: rgb(0, 0, 0);
-    border: 1px solid white; 
+  .nav-item{
+      list-style: none;
+      margin-right: 40px;
+  }
+  .nav-links{
+    border: 1px solid rgba(245, 245, 245, 0.197);
+    padding: 3px;  
+
   }
   
-  .banner-image{
-    position: relative;
+  .nav-link{
+      text-decoration: none;
+      font-size: 1.3rem; 
+
   }
-   
+
   
-.banner-img{
+  .hamburger{
+      font-size: 20px;
+    cursor: pointer;
+    color: #FFFFFF; 
+      display: none;
+    
+    }
 
-    width: 75%;
-   margin-left: 160px;
-   
-   
- }
+    
+  .fitness-style{
+      color: #E6533C; 
+      font-size: 2.2rem; 
+      font-weight: bolder;
+    }
 
- 
-.banner-badge-one{
-    background-color: rgba(255, 255, 255, 0.185) ;
-    width: 180px; 
-    height: 90px ;
-    border-radius: 15px;
-    position:absolute; 
-    top: 520px; 
-    right: 385px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-   
+    /* navbar style end here  */
+
+    /* banner style start here  */
+    #banner{
+      display: grid; 
+      grid-template-columns: repeat(2, 1fr);
+      padding: 50px 170px 0px 170px; 
     
   }
+
   
-  
-.banner-badge-two{
-    background-color: rgba(255, 255, 255, 0.215) ;
-    width: 180px; 
-    height: 90px ;
-    border-radius: 15px;
-    position:absolute; 
-    top: 160px; 
-    left: 440px; 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  
+  .banner-content{
+      margin-top: 30px;
+    }
     
-  }
-  
- .bg{
-    background-color: rgba(255, 255, 255, 0.323) ;
-  
-   }
-
-   
-.circle{
-    background-color: #E6533C;
-    width: 50px;
-    height: 50px;
-    border-radius: 100%;
-    margin-top: 15px;
-    margin-right: 8px;
-    margin-left: 5px;
-    
-}  
-  
-
- /* main style start here  */
-
- main{
-
-    margin-top: 50px;
-}
-
- /* habit style start  */
- #habit{
-       
-    margin: 50px 170px ; 
-    padding: 10px; 
-       
- }
-
-   
- .habit-title{
-    font-size: 3rem ; 
+  .banner-title{
+    font-size: 5.5rem ; 
     color: #FFFFFF; 
     font-weight: 900;
-    text-transform: capitalize;
-    text-align: center;
-    margin-bottom: 20px;
-}
- 
-.habit-des{
-    color: #ffffff97 ; 
-    text-transform: capitalize;
-    text-align: center;
-    margin-top: 10px;
-    margin-left: 5px ;
-  
-  
   }
-
-  .heading-four{
-    font-size: 1.5rem ; 
-    color: #FFFFFF; 
-    font-weight: 400px ; 
-    text-transform: capitalize;
-    margin-top: 20px;
-    margin-left: 5px;
     
-  }
-  .center{
-
-    text-align: center;
-}
 
 
+  .banner-des{
+      margin-top: 20px;
+      margin-bottom: 30px;
+    
+    }
 
-.pera-styles{
-    color: #ffffff97 ; 
-    text-transform: capitalize;
-    text-align: center;
-    margin-top: 10px;
-    margin-left: 5px ;
-  
-  
-  }
+    
+  .btn-bg{
+      background-color: rgb(0, 0, 0);
+      border: 1px solid white; 
+    }
+    
+    .banner-image{
+      position: relative;
+    }
+    
+    
+  .banner-img{
 
- 
-.habit-image{
-    display:grid;
-    grid-template-columns: repeat(4,1fr);
-    margin-top: 80px;
-    gap: 30px;
+      width: 75%;
+    margin-left: 160px;
+    
     
   }
 
   
-.img-rounded{
-    border-radius: 100%;
-    border: 1px solid white; 
-    margin-left: 50px;
-  
-  
-  
+  .banner-badge-one{
+      background-color: rgba(255, 255, 255, 0.185) ;
+      width: 180px; 
+      height: 90px ;
+      border-radius: 15px;
+      position:absolute; 
+      top: 520px; 
+      right: 385px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    
+      
+    }
+    
+    
+  .banner-badge-two{
+      background-color: rgba(255, 255, 255, 0.215) ;
+      width: 180px; 
+      height: 90px ;
+      border-radius: 15px;
+      position:absolute; 
+      top: 160px; 
+      left: 440px; 
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    
+      
+    }
+    
+  .bg{
+      background-color: rgba(255, 255, 255, 0.323) ;
+    
+    }
+
+    
+  .circle{
+      background-color: #E6533C;
+      width: 45px;
+      height: 45px;
+      border-radius: 100%;
+      margin-top: 15px;
+      margin-right: 8px;
+      margin-left: 5px;
+      
+  }  
+    
+
+  /* main style start here  */
+
+  main{
+
+      margin-top: 50px;
   }
 
-  /* habit style end  */
+  /* habit style start  */
+  #habit{
+        
+      margin: 50px 170px ; 
+      padding: 10px; 
+        
+  }
+
+    
+  .habit-title{
+      font-size: 3rem ; 
+      color: #FFFFFF; 
+      text-transform: capitalize;
+      text-align: center;
+      margin-bottom: 20px;
+  }
+  
+  .habit-des{
+      color: #ffffff97 ; 
+      text-transform: capitalize;
+      text-align: center;
+      margin-top: 10px;
+      margin-left: 5px ;
+    
+    
+    }
 
   
- /* run extra style start */
- .run-extra{
 
-    margin: 50px 170px;  
-    background-color: rgba(34, 34, 34, 0.474) ;
-    display: flex;
-    border-radius: 20px;
-     
+  
+  .habit-image{
+      display:grid;
+      grid-template-columns: repeat(4,1fr);
+      margin-top: 80px;
+      gap: 30px;
+      
+    }
 
+      .habit-img-title{
+        font-size: 1.5rem ; 
+        color: #FFFFFF; 
+        font-weight: 400px ; 
+        text-transform: capitalize;
+        text-align: center;
+      
+      
+      }
+
+    .habit-img-des{
+      color: #ffffff97 ; 
+      text-transform: capitalize;
+      text-align: center;
+      
+    
+    }
+    
+  .img-rounded{
+      border-radius: 100%;
+      border: 1px solid white; 
+      display: flex;
+      margin: 0 auto;
+      margin-bottom: 30px;
+
+    
+    
+    
+    }
+
+    /* habit style end  */
+
+    
+  /* run extra style start */
+  .run-extra{
+
+      margin: 50px 170px;  
+      background-color: rgba(34, 34, 34, 0.474) ;
+      display: flex;
+      border-radius: 20px;
+      
+
+    }
+
+
+    .run-extra-content{
+      padding-top: 50px;
+      padding-left: 30px;
   }
 
 
   .run-extra-content{
-    padding-top: 50px;
-    padding-left: 30px;
-}
+      padding-top: 50px;
+      padding-left: 30px;
+  }
 
+  .run-extra-title{
 
-.run-extra-content{
-    padding-top: 50px;
-    padding-left: 30px;
-}
+      color: #fff ; 
+      font-size: 3rem ; 
+      margin-top: 10px;
+      margin-bottom: 10px;
+      background-color: rgba(34, 34, 34, 0) ; 
 
-.run-extra-title{
+    
+  }
 
-    color: #fff ; 
-    font-size: 3rem ; 
+  .run-extra-des{
+
+    color: #ffffff97 ; 
     margin-top: 10px;
-    margin-bottom: 10px;
-     background-color: rgba(34, 34, 34, 0) ; 
-
-  
- }
-
- .run-extra-des{
-
-   color: #ffffff97 ; 
-   margin-top: 10px;
-   margin-bottom: 20px;
-   background-color: rgba(34, 34, 34, 0) ; 
-
-
- }
-
- 
- .run-img{
-    width: 70%;
-    height: 70%;
-    border-radius: 20px;
-    margin-left: 150px;
-    margin-top: 50px;
-    
- }
-/* run extra style end here  */
-
- /* bmi style start here  */
- .bmi{
-    text-align: center;
-   margin: 70px 0;
-  }
-  
-  .bmi-title{
-  color: white;
-  }
-  
-  .bmi-des{
-    font-size: 0.87rem;
-  color: rgba(255, 255, 255, 0.5);
-  }
-  
-  .bmi-hero{
-    background: rgb(34, 34, 34);  
-     width: 100%;
-    margin: 0 auto;
-  }
-  
-  .bmi-chat{
-  width: 80%;
-   margin: 0 auto;
-  align-items: center;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  padding: 20px;
-  gap: 15rem ;
-  }
-  
-  .cal-chart{
-   color: white;
-   margin-bottom: 70px;
-  }
-  
-  .bmi-text{
-    margin-bottom: 1.8rem;
-    font-size:1.5rem; 
-  }
-  
-  table{
-    width:300px;
-    height: 200px;
-    border-collapse: collapse;  
-  }
-  
-  td,th{
-    border: 1px solid rgb(92, 91, 91);
-    padding: 10px;
-  }
-  
-  td{
-    color: rgba(255, 255, 255, 0.5);
-  }
-  
-  tr{
-    text-align: left;
-  }
-  
-  .bmi-title{
-    color: white;
-    font-size: 1.5rem;
-    margin-bottom: 15px;
-  }
-  
-  .bmi-desc{
-    color: rgba(255, 255, 255, 0.5);
-    font-size:0.9rem;
-    line-height: 25px;
     margin-bottom: 20px;
-  }
-  
-  input, select{
-  width:250x;
-  height: 35px;
-  margin: 0.5rem 0.5rem;
-  border: none;
-  border-radius: 5px;
-  background-color:rgb(59, 58, 58);
-  padding-left: 15px;
-  }
-  
-  select{
-    border-right: 15px solid transparent;
-  }
-  
-  
-  .input input::placeholder,select{
-    color: rgba(255, 255, 255, 0.6);
-  }
-  
-  .input{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-  }
-  
-  .activity-factor{
-    grid-template-columns: 1fr;
-    width: 192%;
-  }
-  
+    background-color: rgba(34, 34, 34, 0) ; 
 
 
-  .button-3 {
-    padding: 12px 30px 12px 28px;
-    border-radius: 42px;
-    background: rgb(230, 83, 60);
-    border: none;
-    font-size: 0.96rem;
-    color: white;
   }
 
+  
+  .run-img{
+      width: 70%;
+      height: 70%;
+      border-radius: 20px;
+      margin-left: 150px;
+      margin-top: 50px;
+      
+  }
+  /* run extra style end here  */
 
-   /* uniq section start here  */
-
-
-    .uniq-section{
-
-        margin: 50px 170px; 
-        background-color: rgba(34, 34, 34, 0.474) ;
-        border-radius: 20px;
-
+  /* bmi style start here  */
+  .bmi{
+      text-align: center;
+      margin: 70px 0;
 
     }
-
-     .uniq-title{
-         color: #fff;
-         font-size: 3rem;
-         text-align: center;
-         margin-top: 50px;
-         margin-bottom: 50px;
-         padding-top: 50px;
-     }
-
-
-    .uniq{
-        display: flex;
-        padding: 50px;
-        margin-top: 50px;
-
-    }
-
-    .uniq-content-title{
-      color: #fff;
-      font-size: 2rem;
-      margin-bottom: 50px;
-    }
-
-    .uniq-content-des{
-      color: rgba(255, 255, 255, 0.5);
-      margin-bottom: 50px;
-
-
-    }
-
-
-    .uniq-img{
-
-       width: 90%;
-       border-radius: 10px;
-       margin-left: 50px;
-    }
-
     
-
-
-  /* meet section start  */
-
-  .meet-container{
+    .bmi-title{
+    color: white;
+    }
+    
+    .bmi-descrip{
+    
+    color: rgba(255, 255, 255, 0.5);
+    }
+    
+    .bmi-hero{
+      background: rgb(34, 34, 34);  
+      width: 100%;
+      margin: 0 auto;
+    }
+    
+    .bmi-chat{
     width: 80%;
     margin: 0 auto;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 20px;
+    gap: 15rem ;
+    }
+    
+    .cal-chart{
+    color: white;
+    margin-bottom: 70px;
+    }
+    
+    .bmi-text{
+      margin-bottom: 1.8rem;
+      font-size:1.5rem; 
+    }
+    
+    table{
+      width:300px;
+      height: 200px;
+      border-collapse: collapse;  
+    }
+    
+    td,th{
+      border: 1px solid rgb(92, 91, 91);
+      padding: 10px;
+    }
+    
+    td{
+      color: rgba(255, 255, 255, 0.5);
+    }
+    
+    tr{
+      text-align: left;
+    }
+    
+    .bmi-title{
+      color: white;
+      font-size: 1.5rem;
+      margin-bottom: 15px;
+    }
+    
+    .bmi-desc{
+      color: rgba(255, 255, 255, 0.5);
+      font-size:0.9rem;
+      line-height: 25px;
+      margin-bottom: 20px;
+    }
+    .BMI{
+      padding-right: 150px;
+    }
+    input, select{
+    width:250x;
+    height: 35px;
+    margin: 0.5rem 0.5rem;
+    border: none;
+    border-radius: 5px;
+    background-color:rgb(59, 58, 58);
+    padding-left: 15px;
 
- 
-}
 
-.mentor{
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  margin: 1re 0;
-  gap: 1rem;
-  background: rgb(34, 34, 34);
- padding:   20px 20px;
-  border-radius: 20px; 
-  margin-top: 50px;
-}
+    }
+    
+    select{
+      border-right: 15px solid transparent;
+    }
+    
+    
+    .input input::placeholder,select{
+      color: rgba(255, 255, 255, 0.6);
+    }
+    
+    .input{
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .activity-factor{
+      grid-template-columns: 1fr;
+      width: 192%;
+    }
+    
 
-.meet-content{
-  text-align: center;
-  color: white;
-  margin-top: 70px;
-}
 
-.meet-content h1{
-  font-size: 40px;
-}
+    .button-3 {
+      padding: 12px 30px 12px 28px;
+      border-radius: 42px;
+      background: rgb(230, 83, 60);
+      border: none;
+      font-size: 0.96rem;
+      color: white;
+    }
 
-.meet-content p{
-  margin-top: 10px;
-  color: #ffffff77 ; 
+
+    /* uniq section start here  */
+
+
+      .uniq-section{
+
+          margin: 50px 170px; 
+          background-color: rgba(34, 34, 34, 0.474) ;
+          border-radius: 20px;
+
+
+      }
+
+      .uniq-title{
+          color: #fff;
+          font-size: 3rem;
+          text-align: center;
+          margin-top: 50px;
+          margin-bottom: 50px;
+          padding-top: 50px;
+      }
+
+
+      .uniq{
+          display: flex;
+          padding: 50px;
+          margin-top: 50px;
+
+      }
+
+      .uniq-content-title{
+        color: #fff;
+        font-size: 2rem;
+        margin-bottom: 50px;
+      }
+
+      .uniq-content-des{
+        color: rgba(255, 255, 255, 0.5);
+        margin-bottom: 50px;
+
+
+      }
+
+
+      .uniq-img{
+
+        width: 90%;
+        border-radius: 10px;
+        margin-left: 50px;
+      }
+
+      
+
+
+    /* meet section start  */
+
+    .meet-container{
+      width: 80%;
+      margin: 0 auto;
 
   
-}
+  }
 
-
-.team-img{
- position: relative;
- 
-}
-
-
-.img-team{
- width: 100%;
- height: 320px;
- border-radius: 20px;
-}
-
-.mentor-title{
-position: absolute;
-top: 70%;
-left: 10%;
-color: #fff; 
-}
-
-.trainer{
-color: rgb(153, 143, 143); 
-font-size: 16px; 
-}
-
-
-/* footer start  */
-
- footer{
-
-    background-color: rgba(255, 255, 255, 0.1);
-    margin-top: 50px;
- }
-
- .footer-content{
+  .mentor{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    padding: 50px 170px ;
-    justify-content: center; 
+    margin: 1re 0;
+    gap: 1rem;
+    background: rgb(34, 34, 34);
+  padding:   20px 20px;
+    border-radius: 20px; 
+    margin-top: 50px;
+  }
+
+  .meet-content{
     text-align: center;
- }
+    color: white;
+    margin-top: 70px;
+  }
+
+  .meet-content h1{
+    font-size: 40px;
+  }
+
+  .meet-content p{
+    margin-top: 10px;
+    color: #ffffff77 ; 
 
     
-.heading-fit{
-  color: #E6533C; 
-  font-size: 3.2rem; 
-  font-weight: bolder;
-  margin-bottom: 20px;
-}
-
-.footer-pera{
-  color: rgba(255, 255, 255, 0.5);
-  font-size: 15px;
-
-          
-}
-
-.footer-title{
-  color:#fff; 
-  font-size: 1.5rem;
-  margin-bottom: 30px;
-}
- 
-.footer-des{
-  color: rgba(255, 255, 255, 0.5);
-  margin-bottom: 20px;
-
-
-}
-
- .footer-des-center{
-    text-align: center;
-    padding-bottom: 30px;
-    padding-top: 40px;
- }
-
-   hr{
-    background-color: rgba(255, 255, 255, 0.191);
-    width: 80%;
-    margin-left: 170px;
-
-   }
-  /* responsive style start here  */
-
-   @media screen and (max-width: 576px){
-/* navbar style start  */
-
-
-   body{
-       width: 100%;
-   }
-
-
-    .navbar{
-        padding: 50px 20px 50px 20px ; 
-    }
-       .nav-link{
-          display: none;
-       }
-        .hamburger{
-            display: block;
-        }
-
-    .nav-links{
-        border: none;
-     }
-
-     /* navbar end here  */
-
-
-     /* banner start here  */
-
-       main{
-         margin: 0;
-       }
-
-     #banner{
-        grid-template-columns: repeat(1,1fr);
-        padding: 0;
-      }
-      
-  
-     .banner-content{
-        padding-right: 90px;
-        padding-left: 20px;
-     }
-  
-     .btn-primary{
-       width: 180px;
-        margin-top: 30px;
-        margin-bottom: 50px;
-     }
-     
-
-       .banner-title{
-        font-size: 3.5rem;
-        }
-
-         .banner-des{
-            margin-top: 20px;
-         }
-          .banner-img{
-
-            width: 50%;
-             margin: 0;
-             margin-left: 40px;
-             
-          }
-
-          .banner-badge-one{
-            left: 20px;
-            top: 220px;
-            width: 140px;
-            height: 75px;
-          }
-
-          .banner-badge-two{
-            top: 45px;
-             left: 190px  ;  
-             width: 140px;
-             height: 75px;
-             text-align: center;
-            
-           }
-
-           /* banner section end  */
-
-
-           /* habit style start  */
-
-          
-
-            #habit{
-               padding: 0px 20px 20px 20px ;
-               margin: 0;
-               margin-left: 30px;
-               margin-right: 30px;
-            }
-  
- .habit-image{
-
-    grid-template-columns: repeat(1, 1fr);
-     
-    margin-left: 70px;
- }
-
-  .center{
-  
-    text-align: center;
-    margin-right: 80px;
-     
-  }
-
- .habit-content{
-
-   padding: 0;
-   margin-top: 0;
-   
-  
- }
-   .habit-title{
-    font-size: 2rem;
-   }
-
-  .img-rounded{
-     margin-bottom: 20px;
   }
 
 
- /* habit style end  */
-
- 
-      /* run extra style  */
-
-      .run-extra{
-
-        flex-direction: column;
-        margin: 20px;
-        background-color: rgba(34, 34, 34, 0.474) ; 
-
-    }
-       .run-extra-content{
-          margin: 0px ; 
-          padding: 0px; 
-       }
-    .run-extra div {
-
-        margin: 40px;
-        
-         
-     }
-
-      .run-extra-btn{
-        width: 300px;
-      }
-     .run-img{
-        margin: 0;
-        width: 95%;
-        margin-left: 10px;
-     }
-
-     /* run extra  style end  */
-
-     /* bmi style start  */
-
-     .bmi-chat{
-        flex-direction: column;
-        grid-template-columns: 1fr;
-        gap: 2rem ; 
-     }
-         
-     .bmi-des{
-        width: 80%;
-        margin: 0 auto;
-     }
-/* bmi style end  */
-
-
-  /* uniq section start here  */
-
-   .uniq-section{
-     margin: 0;
-     margin-left: 20px;
-     margin-right: 20px;
-
-   }
-
-   .uniq{
-    flex-direction: column;
-   }
-
-   .uniq-img{
+  .team-img{
+  position: relative;
   
-     width: 100%;
-     margin: 0;
-     margin-top: 50px;
-     
-   }
-
-
-
-
- /* meet style start  */
-
-   .mentor{
-          grid-template-columns: repeat(1,1fr);
-   }
-
-
-  .hide{
-     display: none;
   }
 
 
-   .footer-content{
+  .img-team{
+  width: 100%;
+  height: 320px;
+  border-radius: 20px;
+  }
 
-      grid-template-columns: repeat(1, 1fr);
+  .mentor-title{
+  position: absolute;
+  top: 70%;
+  left: 10%;
+  color: #fff; 
+  }
 
-       text-align: left;
-       padding: 0;
-       margin-left: 20px;
-      
-      
-      
-   }
+  .trainer{
+  color: rgb(153, 143, 143); 
+  font-size: 16px; 
+  }
 
-    .heading-fit{
-       margin: 0;
-    }
 
-    .footer-title{
-      margin-bottom: 50px;
+  /* footer start  */
+
+  footer{
+
+      background-color: rgba(255, 255, 255, 0.1);
       margin-top: 50px;
-    }
-     
-   .footer-pera{
-    margin-bottom: 30px;
-     margin-right: 70px;
-     margin-top: 40px;
-   }
+  }
 
+  .footer-content{
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      padding: 50px 170px ;
+      justify-content: center; 
+      text-align: center;
+  }
+
+      
+  .heading-fit{
+    color: #E6533C; 
+    font-size: 3.2rem; 
+    font-weight: bolder;
+    margin-bottom: 20px;
+  }
+
+  .footer-pera{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 15px;
+
+            
+  }
+
+  .footer-title{
+    color:#fff; 
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+  }
+  
+  .footer-des{
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 20px;
+
+
+  }
+
+  .footer-des-center{
+      text-align: center;
+      padding-bottom: 30px;
+      padding-top: 40px;
+  }
 
     hr{
-       margin: 0;
-       margin-left: 20px;
-       width: 90%;
-       margin-top: 40px;
-       margin-bottom: 40px;
+      background-color: rgba(255, 255, 255, 0.191);
+      width: 80%;
+      margin-left: 170px;
+
+    }
+    /* responsive style start here  */
+
+    @media screen and (max-width: 576px){
+  /* navbar style start  */
+
+
+    body{
+        width: 100%;
     }
 
-     .footer-des{
-       text-align: left;
-       margin-left: 20px;
-     }
 
+      .navbar{
+          padding: 50px 20px 50px 20px ; 
+      }
+        .nav-link{
+            display: none;
+        }
+          .hamburger{
+              display: block;
+          }
+
+      .nav-links{
+          border: none;
+      }
+
+      /* navbar end here  */
+
+
+      /* banner start here  */
+
+        main{
+          margin: 0;
+        }
+
+      #banner{
+          grid-template-columns: repeat(1,1fr);
+          padding: 0;
+        }
+        
     
-   }
+      .banner-content{
+          padding-right: 90px;
+          padding-left: 20px;
+      }
+    
+      .btn-primary{
+        width: 180px;
+          margin-top: 30px;
+          margin-bottom: 50px;
+      }
+      
+
+        .banner-title{
+          font-size: 3.5rem;
+          }
+
+          .banner-des{
+              margin-top: 20px;
+          }
+            .banner-img{
+
+              width: 55%;
+              margin: 0;
+              margin-left: 40px;
+              
+            }
+
+            .banner-badge-one{
+              left: 20px;
+              top: 220px;
+              width: 140px;
+              height: 75px;
+            }
+
+            .banner-badge-two{
+              top: 45px;
+              left: 190px  ;  
+              width: 140px;
+              height: 75px;
+              text-align: center;
+              
+            }
+
+            /* banner section end  */
+
+
+            /* habit style start  */
+
+            
+
+              #habit{
+                padding: 0px 20px 20px 20px ;
+                margin: 0;
+                margin-left: 30px;
+                margin-right: 30px;
+              }
+    
+  .habit-image{
+
+      grid-template-columns: repeat(1, 1fr);
+      
+      
+  }
+
+
+
+  .habit-content{
+
+    padding: 0;
+    margin-top: 0;
+    
+    
+  }
+    .habit-title{
+      font-size: 2rem;
+    }
+
+    .habit-img-title{
+      text-align: center ;
+    }
+    
+  .habit-img-des{
+    text-align: center; 
+    
+    
+      
+  }
+
+    .img-rounded{
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+
+  /* habit style end  */
+
+  
+        /* run extra style  */
+
+        .run-extra{
+
+          flex-direction: column;
+          margin: 20px;
+          background-color: rgba(34, 34, 34, 0.474) ; 
+
+      }
+        .run-extra-content{
+            margin: 0px ; 
+            padding: 0px; 
+        }
+      .run-extra div {
+
+          margin: 40px;
+          
+          
+      }
+
+        .run-extra-btn{
+          width: 250px;
+        }
+      .run-img{
+          margin: 0;
+          width: 95%;
+        
+      }
+
+      /* run extra  style end  */
+
+      /* bmi style start  */
+
+        .bmi{
+          text-align: left;
+          margin-left: 20px;
+          
+        }
+
+      
+      .bmi-chat{
+          flex-direction: column;
+          grid-template-columns: 1fr;
+          gap: 2rem ; 
+      }
+          
+      .bmi-des{
+          width: 80%;
+          margin: 0 auto;
+      }
+
+      .bmi-chat, .BMI{
+        margin: 0;
+      }
+  /* bmi style end  */
+
+
+    /* uniq section start here  */
+
+    .uniq-section{
+      margin: 0;
+      margin-left: 20px;
+      margin-right: 20px;
+
+    }
+
+    .uniq{
+      flex-direction: column;
+    }
+
+      .uniq-title{
+        padding: 10px;
+      }
+
+    .uniq-img{
+    
+      width: 100%;
+      margin: 0;
+      margin-top: 50px;
+      
+    }
+
+
+
+
+  /* meet style start  */
+
+    .mentor{
+            grid-template-columns: repeat(1,1fr);
+    }
+
+
+    .hide{
+      display: none;
+    }
+
+
+    .footer-content{
+
+        grid-template-columns: repeat(1, 1fr);
+
+        text-align: left;
+        padding: 0;
+        margin-left: 20px;
+        
+        
+        
+    }
+
+      .heading-fit{
+        margin: 0;
+      }
+
+      .footer-title{
+        margin-bottom: 50px;
+        margin-top: 50px;
+      }
+      
+    .footer-pera{
+      margin-bottom: 30px;
+      margin-right: 70px;
+      margin-top: 40px;
+    }
+
+
+      hr{
+        margin: 0;
+        margin-left: 20px;
+        width: 90%;
+        margin-top: 40px;
+        margin-bottom: 40px;
+      }
+
+      .footer-des{
+        text-align: left;
+        margin-left: 20px;
+      }
+
+      
+    }
