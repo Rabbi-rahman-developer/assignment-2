@@ -2,7 +2,7 @@
   @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
   .inter-google-font{
     font-family: "Inter", sans-serif;
-    font-weight:600; 
+    font-weight:500; 
     font-style: normal;
   }
 
@@ -96,10 +96,10 @@
 
   
   .hamburger{
-      font-size: 20px;
+    font-size: 20px;
     cursor: pointer;
     color: #FFFFFF; 
-      display: none;
+    display: none;
     
     }
 
@@ -530,7 +530,7 @@
     margin: 1re 0;
     gap: 1rem;
     background: rgb(34, 34, 34);
-  padding:   20px 20px;
+  padding:20px 20px;
     border-radius: 20px; 
     margin-top: 50px;
   }
@@ -653,6 +653,7 @@
         }
           .hamburger{
               display: block;
+              padding-right: 40px;
           }
 
       .nav-links{
@@ -749,19 +750,26 @@
 
     padding: 0;
     margin-top: 0;
+    padding-right: 50px;
     
     
   }
     .habit-title{
       font-size: 2rem;
+      text-align: center;
+
     }
 
     .habit-img-title{
-      text-align: center ;
+      text-align: center; 
+      
+    
+      
     }
     
   .habit-img-des{
     text-align: center; 
+    padding-right: 10px;
     
     
       
@@ -904,7 +912,7 @@
       hr{
         margin: 0;
         margin-left: 20px;
-        width: 90%;
+        width: 85%;
         margin-top: 40px;
         margin-bottom: 40px;
       }
